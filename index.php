@@ -7,7 +7,7 @@
 	require_once __DIR__ . '/excel/PHPExcel/IOFactory.php';
 	
 	$filename = mt_rand(111111,666666);
-	file_put_contents(__DIR__ . '/' . $filename . '.xlsx',file_get_contents("https://king.myideasoft.com" . '/dosya/satis-noktalarimiz.xlsx'));
+	file_put_contents(__DIR__ . '/' . $filename . '.xlsx',file_get_contents("***" . '/dosya/satis-noktalarimiz.xlsx'));
 
 	$inputFileName = __DIR__ . "/" . $filename . ".xlsx";
 
@@ -110,7 +110,7 @@
 	
 	unlink(__DIR__ . "/" . $filename . ".xlsx");
 	?>
-	<link href="https://dev.digitalfikirler.com/king/css/map.css" rel="stylesheet" />
+	<link href="***/css/map.css" rel="stylesheet" />
 	<!-- SVG Türkiye Haritası | MIT Lisans | dnomak.com -->
     <div class="il-isimleri"></div>
 	<div class="col-12 mb-5">
