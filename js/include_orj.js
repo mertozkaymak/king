@@ -15,7 +15,7 @@ $(function() {
 			});
 		/**editing*/
 
-		$("#content").load("https://dev.digitalfikirler.com/king/index.php?domain=" + window.location.origin, function() {
+		$("#content").load("***/index.php?domain=" + window.location.origin, function() {
 				
 			initMap();
 			for(var key in distributors) {
